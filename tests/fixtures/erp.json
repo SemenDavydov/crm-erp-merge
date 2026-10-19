@@ -1,0 +1,151 @@
+[
+ {
+  "code": "C1",
+  "full_name": "Петров Иван",
+  "contacts": {
+   "phones": [
+    "+7 (999) 123-45-67"
+   ],
+   "emails": [
+    "ivan@x.ru"
+   ]
+  },
+  "balance": 500,
+  "changed": "2026-10-02T10:00:00Z"
+ },
+ {
+  "code": "C2",
+  "full_name": "Волкова А.",
+  "contacts": {
+   "phones": [
+    "+79160000001",
+    "+79165550000"
+   ],
+   "emails": []
+  },
+  "balance": 700,
+  "changed": "2026-10-05T10:00:00Z"
+ },
+ {
+  "code": "C3",
+  "full_name": "Сайтов Б.",
+  "contacts": {
+   "phones": [
+    "+79031112233"
+   ],
+   "emails": [
+    "BOB@site.ru"
+   ]
+  },
+  "balance": 600,
+  "changed": "2026-10-03T10:00:00Z"
+ },
+ {
+  "code": "C4",
+  "full_name": "Морозова Е.",
+  "contacts": {
+   "phones": [
+    "8 926 777 88 99"
+   ],
+   "emails": [
+    "elena@x.ru"
+   ]
+  },
+  "balance": 800,
+  "changed": "2026-10-06T10:00:00Z"
+ },
+ {
+  "code": "C5",
+  "full_name": "Мария Эрпова",
+  "contacts": {
+   "phones": [
+    "+79990001122"
+   ],
+   "emails": [
+    "maria@erp.ru"
+   ]
+  },
+  "balance": 300,
+  "changed": "2026-10-02T10:00:00Z"
+ },
+ {
+  "code": "C6",
+  "full_name": "Олег Эрпов",
+  "contacts": {
+   "phones": [],
+   "emails": [
+    "oleg@erp.ru"
+   ]
+  },
+  "balance": 450,
+  "changed": "2026-10-04T10:00:00Z"
+ },
+ {
+  "code": "C7",
+  "full_name": "Битый клиент",
+  "contacts": {
+   "phones": [
+    "abc"
+   ],
+   "emails": []
+  },
+  "balance": 100,
+  "changed": "2026-10-01T10:00:00Z"
+ },
+ {
+  "code": "C8",
+  "full_name": "Пётр (1С)",
+  "contacts": {
+   "phones": [
+    "+79164455667"
+   ],
+   "emails": [
+    "petr@erp.ru"
+   ]
+  },
+  "balance": 200,
+  "changed": "2026-10-04T10:00:00Z"
+ },
+ {
+  "code": "C9",
+  "full_name": "Сотрудник C",
+  "contacts": {
+   "phones": [
+    "+74951234567"
+   ],
+   "emails": [
+    "worker.c@corp.ru"
+   ]
+  },
+  "balance": 130,
+  "changed": "2026-10-04T10:00:00Z"
+ },
+ {
+  "code": "C10",
+  "full_name": "Сотрудник D",
+  "contacts": {
+   "phones": [
+    "+74951234567"
+   ],
+   "emails": [
+    "worker.d@corp.ru"
+   ]
+  },
+  "balance": 140,
+  "changed": "2026-10-05T10:00:00Z"
+ },
+ {
+  "code": "C11",
+  "full_name": "Гость 3",
+  "contacts": {
+   "phones": [
+    "+79201110003"
+   ],
+   "emails": [
+    "info@bestcompany.ru"
+   ]
+  },
+  "balance": 80,
+  "changed": "2026-10-04T10:00:00Z"
+ }
+]

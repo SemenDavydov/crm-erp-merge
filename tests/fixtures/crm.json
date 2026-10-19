@@ -1,0 +1,122 @@
+[
+ {
+  "id": "L1",
+  "name": "Иван Петров",
+  "phone": "8 999 123 45 67",
+  "email": "ivan@x.ru",
+  "amount": 1000,
+  "updated_at": "2026-10-01T10:00:00Z"
+ },
+ {
+  "id": "L3",
+  "name": "Анна Волкова",
+  "phone": "+79160000001",
+  "email": "anna@mail.ru",
+  "amount": 300,
+  "updated_at": "2026-10-01T10:00:00Z"
+ },
+ {
+  "id": "L4",
+  "name": "Анна (рабочий)",
+  "phone": "+79165550000",
+  "email": "anna.work@corp.ru",
+  "amount": 900,
+  "updated_at": "2026-10-06T10:00:00Z"
+ },
+ {
+  "id": "L5",
+  "name": "Борис Сайтов",
+  "phone": "123",
+  "email": "bob@site.ru",
+  "amount": 400,
+  "updated_at": "2026-10-02T10:00:00Z"
+ },
+ {
+  "id": "L6",
+  "name": "Павел Орлов",
+  "phone": "9005551212",
+  "email": "pavel@x.ru",
+  "amount": 500,
+  "updated_at": "2026-10-02T10:00:00Z"
+ },
+ {
+  "id": "L7",
+  "name": "Елена Морозова",
+  "phone": "+7 926 777 88 99",
+  "email": "elena@x.ru",
+  "amount": 700,
+  "updated_at": "2026-10-04T10:00:00Z"
+ },
+ {
+  "id": "L8",
+  "name": "Пётр (CRM)",
+  "phone": "8 (916) 445 56 67",
+  "email": "",
+  "amount": 1200,
+  "updated_at": "2026-10-05T10:00:00Z"
+ },
+ {
+  "id": "L9",
+  "name": "Без контактов",
+  "phone": "",
+  "email": "",
+  "amount": 999,
+  "updated_at": "2026-10-01T10:00:00Z"
+ },
+ {
+  "id": "L10",
+  "name": "Сергей Зайцев",
+  "phone": "+79211112233",
+  "email": "sergey@x.ru",
+  "amount": 250,
+  "updated_at": "2026-10-03T10:00:00Z"
+ },
+ {
+  "id": "L11",
+  "name": "Иван Петров (актуальн)",
+  "phone": "",
+  "email": "ivan@x.ru",
+  "amount": 150,
+  "updated_at": "2026-10-07T10:00:00Z"
+ },
+ {
+  "id": "L12",
+  "name": "Мусор",
+  "phone": "не указан",
+  "email": "",
+  "amount": 50,
+  "updated_at": "2026-10-01T10:00:00Z"
+ },
+ {
+  "id": "L13",
+  "name": "Сотрудник A",
+  "phone": "+74951234567",
+  "email": "worker.a@corp.ru",
+  "amount": 110,
+  "updated_at": "2026-10-02T10:00:00Z"
+ },
+ {
+  "id": "L14",
+  "name": "Сотрудник B",
+  "phone": "+74951234567",
+  "email": "worker.b@corp.ru",
+  "amount": 120,
+  "updated_at": "2026-10-03T10:00:00Z"
+ },
+ {
+  "id": "L15",
+  "name": "Гость 1",
+  "phone": "+79201110001",
+  "email": "info@bestcompany.ru",
+  "amount": 60,
+  "updated_at": "2026-10-02T10:00:00Z"
+ },
+ {
+  "id": "L16",
+  "name": "Гость 2",
+  "phone": "+79201110002",
+  "email": "info@bestcompany.ru",
+  "amount": 70,
+  "updated_at": "2026-10-03T10:00:00Z"
+ }
+]
