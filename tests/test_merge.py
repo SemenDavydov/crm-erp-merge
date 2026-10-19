@@ -118,3 +118,23 @@ def test_fetch_stops_at_total_pages(monkeypatch):
 
     monkeypatch.setattr(fetch, "_get", fake_get)
     assert fetch.fetch_all("crm", "t") == [{"p": 1}, {"p": 2}, {"p": 3}] and calls == [1, 2, 3]
+
+
+def test_wsgi_app(monkeypatch):
+    """Точка входа Vercel: /result отдаёт JSON по схеме, чужие пути — 404."""
+    import app as wsgi
+    from wsgiref.util import setup_testing_defaults
+
+    monkeypatch.setattr(wsgi, "build_result", lambda: merge(CRM, ERP))
+
+    def call(path):
+        env, seen = {}, {}
+        setup_testing_defaults(env)
+        env["PATH_INFO"] = path
+        body = b"".join(wsgi.app(env, lambda status, headers: seen.update(status=status, headers=dict(headers))))
+        return seen["status"], seen["headers"], body
+
+    status, headers, body = call("/result")
+    assert status == "200 OK" and headers["Content-Type"].startswith("application/json")
+    assert json.loads(body)["stats"]["unique_clients"] == 16
+    assert call("/nope")[0] == "404 Not Found"
